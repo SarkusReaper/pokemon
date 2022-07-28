@@ -1,0 +1,280 @@
+/* buscador */
+
+.ctn-search {
+    margin: 3rem auto;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.ctn-search input {
+    text-indent: 4px;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    font-size: 15px;
+    color: #424949;
+    border: 1.5px solid #dfe1e5;
+    align-items: baseline;
+    justify-content: baseline;
+}
+
+.ctn-search input[type="text"] {
+    padding: 0.2rem 0.8rem;
+    font-size: 30px;
+}
+
+.ctn-search button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 100%;
+    border: none;
+    font-size: 35.5px;
+    color: #424949;
+    outline: none;
+    border: 1px solid #dfe1e5;
+    border-left: none;
+    background-color: orangered;
+    color: #424949;
+}
+
+
+/*------------- tarjeta pokemon --------------*/
+
+
+.ctn-main {
+    display: flex;
+    flex-direction: row;
+    background-color: #fafafa;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+    max-width: 40vw;
+    height: 400px;
+}
+
+
+
+.ctn-img-radiobutton {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    min-width: max-content;
+}
+
+.ctn-img {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 100%;
+    height: 60%;
+    font-size: 20px;
+}
+
+.ctn.img img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-width: 100%;
+}
+
+.ctn-radioButton {
+    max-width: 100%;
+    width: 100%;
+    height: 30%;
+    font-size: 25px;
+    color: orangered;
+}
+
+
+
+.inputs-radio input{
+    margin: 4px;
+}
+
+/* nombre, id, tipo*/
+
+.ctn-data-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    width: 25vw;
+    height: 29.5%;
+    max-height: 100%;
+    margin: 0 auto;;
+}
+
+.ctn-name-id {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    background-color: #fafafa;
+    background-color: #424949;
+    color: white;
+}
+
+.ctn-name-id h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fafafa;
+    font-size: 25px;
+    margin: 0;
+    background-color: #424949;
+    color: white;
+}
+
+/*data 2*/
+
+.ctn-data-2 {
+    display: block;
+    width: 100vw;
+    height: 100%;
+    max-width: 100%;
+    font-size: 10px;
+    margin: 0;
+}
+
+.ctn-caracteristicas {
+    align-items: center;
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    height: 15%;
+    max-height: 100%;
+    background-color: #424949;
+    color: white;
+    padding: 0px 5px;
+    font-size: 20px;
+}
+
+.data-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    border-bottom: 4px solid white;
+    border-left: 4px solid white;
+    padding: 4px 0px;
+}
+
+.ctn-data-2 p {
+    max-width: 100%;
+    width: 100%;
+    max-height: 100%;
+    color: orangered;
+    font-size: 20px;
+}
+
+.ctn-habilidades {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 100%;
+    font-size: 14px;
+    border-left: 4px solid white;
+    background-color: #fafafa;
+    margin: 0;
+    font-size: 20px;
+}
+
+.ctn-habilidades label{
+    align-items: center;
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    height: 15%;
+    max-height: 100%;
+    background-color: #424949;
+    color: #fafafa;
+    padding: 0px 5px;
+}
+
+.ctn-habilidades p {
+    max-width: 100%;
+    width: 100%;
+    height: 85%;
+    max-height: 100%;
+    padding: 0px 5px;
+    color: orangered;
+    padding: 1rem 5px;
+    font-size: 20px;
+}
+
+
+
+/* estadisticas */
+
+.ctn-stat {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100%;
+    max-width: 100%;
+    font-size: 20px;
+    border-left: 4px solid white;
+    margin: 0;
+}
+
+.ctn-stat label {
+    align-items: center;
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    height: 15%;
+    max-height: 100%;
+    background-color: #424949;
+    color: white;
+    margin: 0;
+    padding: 0px 5px;
+}
+
+.ctn-estadisticas {
+    max-width: 100%;
+    width: 100%;
+    height: 85%;
+    background-color: #fafafa;
+    color: orangered;
+    font-size: 20px;
+    padding: 1rem 5px;
+}
+
+
+.mensaje-input-white {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    background-color: #fafafa;
+    border-radius: 0.5rem;
+    border: 1px solid #dfe1e5;
+    padding: 1rem;
+}
+
+.mensaje-response-null {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    background-color: #fafafa;
+    border-radius: 0.5rem;
+    border: 1px solid #dfe1e5;
+    padding: 1rem;
+}
